@@ -311,7 +311,10 @@
             },
         }
     }
-    
+
+//Missing line of code here!
+console.log('github is cool!');//$$$
+
 var ktl = this;
 
     //Generic timer constants, in milliseconds
