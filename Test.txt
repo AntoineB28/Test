@@ -325,5 +325,7 @@ var ktl = this;
 
 console.log('mode added lines');//$$$
 
+abc
+
 
 Synctest
