@@ -1,2 +1,4 @@
 Test
 ok?
+
+My bug fix recommendation
