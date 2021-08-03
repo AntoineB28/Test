@@ -1,2 +1,46 @@
-Test
-ok?
+    const KTL_VERSION = '21_08_01_01';
+
+    //Load KTL CSS
+    LazyLoad.css(['http://localhost:3000/KnackToolkitLibrary.css'], function () {
+        //ktl.core.clog('KTL CSS loaded successfully.', 'green');
+    });
+
+    var ktl = this;
+
+    //Generic timer constants, in milliseconds
+    const TEN_SECONDS_DELAY = 10000;
+    const ONE_MINUTE_DELAY = 60000;
+    const FIVE_MINUTES_DELAY = ONE_MINUTE_DELAY * 5;
+    const ONE_HOUR_DELAY = ONE_MINUTE_DELAY * 60;
+
+    //Exposed constant strings
+    this.const = {
+        //Local Storage constants
+        LS_USER_PREFS: 'USER_PREFS_',
+
+        LS_LOGIN: 'LOGIN_',
+        LS_ACTIVITY: 'ACTIVITY_',
+        LS_NAVIGATION: 'NAVIGATION_',
+        LS_APP_ERROR: 'APP_ERR_',
+        LS_SERVER_ERROR: 'SVR_ERR_',
+        LS_WRN: 'WRN_',
+        LS_CRITICAL: 'CRITICAL_',
+
+        LS_LOGIN_STR: 'Login',
+        LS_ACTIVITY_STR: 'Activity',
+        LS_NAVIGATION_STR: 'Navigation',
+        LS_APP_ERROR_STR: 'App Error',
+        LS_SERVER_ERROR_STR: 'Server Error',
+        LS_WRN_STR: 'Warning',
+        LS_CRITICAL_STR: 'Critical',
+
+        LS_LAST_ERROR: 'LAST_ERROR',
+        LS_SYSOP_MSG_UNREAD: 'SYSOP_MSG_UNREAD', //Maybe too app-specific
+
+        //Wait Selector constants
+        WAIT_SEL_IGNORE: 0,
+        WAIT_SEL_LOG_WARN: 1,
+        WAIT_SEL_LOG_ERROR: 2,
+        WAIT_SEL_ALERT: 3,
+        WAIT_SELECTOR_SCAN_SPD: 100,
+    }
