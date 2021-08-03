@@ -1,3 +1,5 @@
+//My bug fix recommendation
+
     const KTL_VERSION = '21_08_01_01';
 
     //Load KTL CSS
