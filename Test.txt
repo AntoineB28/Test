@@ -323,3 +323,4 @@ var ktl = this;
     const FIVE_MINUTES_DELAY = ONE_MINUTE_DELAY * 5;
     const ONE_HOUR_DELAY = ONE_MINUTE_DELAY * 60;
 
+console.log('mode added lines');//$$$
